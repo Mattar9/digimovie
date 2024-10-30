@@ -1,0 +1,1030 @@
+[
+  {
+    "title": "Mystic Falls",
+    "year": 2021,
+    "director": "Jordan Lee",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "rating": 7.5,
+    "cast": [
+      {
+        "name": "Alice Wong",
+        "role": "Detective Gray"
+      },
+      {
+        "name": "Mark Spencer",
+        "role": "John Doe"
+      }
+    ],
+    "duration": 124,
+    "plot": "In the heart of Mystic Falls, a detective uncovers dark secrets.",
+    "country": "USA",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG-13",
+    "authors": [
+      "Jordan Lee",
+      "Emily Clark"
+    ],
+    "metacritic_rate": 78,
+    "imdb_rate": 7.5,
+    "comments": [
+      {
+        "user": "MovieBuff123",
+        "comment": "Great plot with unexpected twists!"
+      },
+      {
+        "user": "Critic101",
+        "comment": "Solid performances but a bit slow."
+      }
+    ],
+    "picture_url": "https://example.com/images/mystic-falls.jpg"
+  },
+  {
+    "title": "Quantum Shadows",
+    "year": 2022,
+    "director": "Nina Brown",
+    "genre": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "rating": 8.2,
+    "cast": [
+      {
+        "name": "Jake Mercer",
+        "role": "Dr. Robert Lowell"
+      },
+      {
+        "name": "Sophia Lin",
+        "role": "Captain Ava Wong"
+      }
+    ],
+    "duration": 140,
+    "plot": "A team of scientists ventures into uncharted quantum realms.",
+    "country": "Canada",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "PG-13",
+    "authors": [
+      "Nina Brown",
+      "Alan Turing"
+    ],
+    "metacritic_rate": 85,
+    "imdb_rate": 8.2,
+    "comments": [
+      {
+        "user": "SciFiLover",
+        "comment": "Mind-blowing visual effects and story."
+      },
+      {
+        "user": "FilmFanatic",
+        "comment": "A bit complex but totally worth it."
+      }
+    ],
+    "picture_url": "https://example.com/images/quantum-shadows.jpg"
+  },
+  {
+    "title": "Harmony in Chaos",
+    "year": 2022,
+    "director": "Leila Patel",
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "rating": 7.4,
+    "cast": [
+      {
+        "name": "Noah Johnson",
+        "role": "Jake Parker"
+      },
+      {
+        "name": "Isabella Martinez",
+        "role": "Emily Rivera"
+      }
+    ],
+    "duration": 115,
+    "plot": "An unlikely romance blossoms between a chaotic artist and a methodical scientist.",
+    "country": "UK",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG-13",
+    "authors": [
+      "Leila Patel",
+      "David Green"
+    ],
+    "metacritic_rate": 74,
+    "imdb_rate": 7.4,
+    "picture_url": "https://example.com/images/harmony-in-chaos.jpg"
+  },
+  {
+    "title": "Whispering Shadows",
+    "year": 2023,
+    "director": "Chris P. Bacon",
+    "genre": [
+      "Drama",
+      "Mystery"
+    ],
+    "rating": 8.1,
+    "cast": [
+      {
+        "name": "Liam Dalton",
+        "role": "Detective Harris"
+      },
+      {
+        "name": "Emma Ray",
+        "role": "Anna Curtis"
+      }
+    ],
+    "duration": 130,
+    "plot": "A seasoned detective must solve a mysterious disappearance in a small town haunted by secrets.",
+    "country": "USA",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG-13",
+    "authors": [
+      "Chris P. Bacon",
+      "John Smith"
+    ],
+    "metacritic_rate": 80,
+    "imdb_rate": 8.1,
+    "picture_url": "https://example.com/images/whispering-shadows.jpg"
+  },
+  {
+    "title": "Robotic Dreams",
+    "year": 2021,
+    "director": "Alan Smithee",
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "rating": 8.2,
+    "cast": [
+      {
+        "name": "Alex Turner",
+        "role": "Dr. Philip"
+      },
+      {
+        "name": "Nina Clark",
+        "role": "Sophia, the AI"
+      }
+    ],
+    "duration": 120,
+    "plot": "In a future where AI controls daily life, a scientist develops a robot with the ability to dream.",
+    "country": "Canada",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "PG-13",
+    "authors": [
+      "Alan Smithee",
+      "Jane Doe"
+    ],
+    "metacritic_rate": 85,
+    "imdb_rate": 8.2,
+    "picture_url": "https://example.com/images/robotic-dreams.jpg"
+  },
+  {
+    "title": "The Hidden Realm",
+    "year": 2020,
+    "director": "Sophia King",
+    "genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "rating": 7.9,
+    "cast": [
+      {
+        "name": "Ethan Hunt",
+        "role": "Prince Darian"
+      },
+      {
+        "name": "Ava Scott",
+        "role": "Princess Liora"
+      }
+    ],
+    "duration": 145,
+    "plot": "A young prince must uncover the secrets of a hidden realm to save his kingdom.",
+    "country": "New Zealand",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "PG",
+    "authors": [
+      "Sophia King",
+      "Robert Brown"
+    ],
+    "metacritic_rate": 80,
+    "imdb_rate": 7.9,
+    "picture_url": "https://example.com/images/the-hidden-realm.jpg"
+  },
+  {
+    "title": "Echoes of Eternity",
+    "year": 2024,
+    "director": "Olivia Green",
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "rating": 8.5,
+    "cast": [
+      {
+        "name": "Liam Wright",
+        "role": "Dr. Michael"
+      },
+      {
+        "name": "Sophia Black",
+        "role": "Sarah Lee"
+      }
+    ],
+    "duration": 132,
+    "plot": "In a distant future, humanity's last hope lies in the hands of a determined scientist.",
+    "country": "Australia",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": [
+      "Olivia Green",
+      "Sarah White"
+    ],
+    "metacritic_rate": 88,
+    "imdb_rate": 8.5,
+    "picture_url": "https://example.com/images/echoes-of-eternity.jpg"
+  },
+  {
+    "title": "Whispering Woods",
+    "year": 2021,
+    "director": "Elena Harper",
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "rating": 7.4,
+    "cast": [
+      {
+        "name": "Emily Stone",
+        "role": "Detective Harper"
+      },
+      {
+        "name": "John Doe",
+        "role": "Mr. Black"
+      }
+    ],
+    "duration": 125,
+    "plot": "A detective investigates a series of murders in a small town with a dark secret.",
+    "country": "UK",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "R",
+    "authors": [
+      "Elena Harper",
+      "David White"
+    ],
+    "metacritic_rate": 75,
+    "imdb_rate": 7.4,
+    "picture_url": "https://example.com/images/whispering-woods.jpg"
+  },
+  {
+    "title": "Galactic Battle",
+    "year": 2022,
+    "director": "Steven Lucas",
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "rating": 7.7,
+    "cast": [
+      {
+        "name": "Chris Evans",
+        "role": "Commander Zane"
+      },
+      {
+        "name": "Brie Larson",
+        "role": "Lieutenant Vega"
+      }
+    ],
+    "duration": 138,
+    "plot": "In a war-torn galaxy, a group of rebels fights against an oppressive regime.",
+    "country": "USA",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": [
+      "Steven Lucas",
+      "George Miller"
+    ],
+    "metacritic_rate": 82,
+    "imdb_rate": 7.7,
+    "picture_url": "https://example.com/images/galactic-battle.jpg"
+  },
+  {
+    "title": "Romance Under the Stars",
+    "year": 2023,
+    "director": "Emma Stone",
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "rating": 7.6,
+    "cast": [
+      {
+        "name": "William Knight",
+        "role": "Henry"
+      },
+      {
+        "name": "Olivia Johnson",
+        "role": "Sarah"
+      }
+    ],
+    "duration": 112,
+    "plot": "A couple falls in love while stargazing, facing challenges that test their relationship.",
+    "country": "Australia",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG",
+    "authors": [
+      "Emma Stone",
+      "John Doe"
+    ],
+    "metacritic_rate": 78,
+    "imdb_rate": 7.6,
+    "picture_url": "https://example.com/images/romance-under-the-stars.jpg"
+  },
+  {
+    "title": "Future Echoes",
+    "year": 2024,
+    "director": "Daniel Harris",
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "rating": 8.3,
+    "cast": [
+      {
+        "name": "Jason Clarke",
+        "role": "Dr. Maxwell"
+      },
+      {
+        "name": "Natalie Wood",
+        "role": "Eve"
+      }
+    ],
+    "duration": 140,
+    "plot": "In a dystopian future, a scientist strives to alter the course of humanity.",
+    "country": "Canada",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "PG-13",
+    "authors": [
+      "Daniel Harris",
+      "Linda Green"
+    ],
+    "metacritic_rate": 85,
+    "imdb_rate": 8.3,
+    "picture_url": "https://example.com/images/future-echoes.jpg"
+  },
+  {
+    "title": "Silent Whispers",
+    "year": 2023,
+    "director": "Rebecca Allen",
+    "genre": [
+      "Horror",
+      "Thriller"
+    ],
+    "rating": 7.8,
+    "cast": [
+      {
+        "name": "Evan Mitchell",
+        "role": "David"
+      },
+      {
+        "name": "Sophia Brown",
+        "role": "Laura"
+      }
+    ],
+    "duration": 127,
+    "plot": "A family moves into a haunted house, uncovering dark secrets of its past.",
+    "country": "UK",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "R",
+    "authors": [
+      "Rebecca Allen",
+      "Michael Grant"
+    ],
+    "metacritic_rate": 82,
+    "imdb_rate": 7.8,
+    "picture_url": "https://example.com/images/silent-whispers.jpg"
+  },
+  {
+    "title": "The Lost Empire",
+    "year": 2025,
+    "director": "James Cameron",
+    "genre": [
+      "Adventure",
+      "Action"
+    ],
+    "rating": 9.0,
+    "cast": [
+      {
+        "name": "Tom Hanks",
+        "role": "Professor Smith"
+      },
+      {
+        "name": "Scarlett Johansson",
+        "role": "Agent Ryan"
+      }
+    ],
+    "duration": 150,
+    "plot": "A team of explorers discovers a lost empire hidden deep within the Amazon rainforest.",
+    "country": "USA",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": [
+      "James Cameron",
+      "Chris Nolan"
+    ],
+    "metacritic_rate": 90,
+    "imdb_rate": 9.0,
+    "picture_url": "https://example.com/images/the-lost-empire.jpg"
+  },
+    {
+      "title": "Starry Nights",
+      "year": 2019,
+      "director": "Michael Bright",
+      "genre": [
+        "Romance",
+        "Drama"
+      ],
+      "rating": 7.6,
+      "cast": [
+        {
+          "name": "Emma Stone",
+          "role": "Claire Bennett"
+        },
+        {
+          "name": "Ryan Gosling",
+          "role": "Alex Turner"
+        }
+      ],
+      "duration": 120,
+      "plot": "Two artists find love and inspiration under the city lights.",
+      "country": "USA",
+      "language": "English",
+      "quality": "HD",
+      "age_group": "PG-13",
+      "authors": [
+        "Michael Bright",
+        "Sarah Williams"
+      ],
+      "metacritic_rate": 76,
+      "imdb_rate": 7.6,
+      "picture_url": "https://example.com/images/starry-nights.jpg"
+    },
+    {
+      "title": "Galactic Adventures",
+      "year": 2023,
+      "director": "Steven Lucas",
+      "genre": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "rating": 8.0,
+      "cast": [
+        {
+          "name": "Chris Pratt",
+          "role": "Captain Galaxy"
+        },
+        {
+          "name": "Zoe Saldana",
+          "role": "Commander Star"
+        }
+      ],
+      "duration": 135,
+      "plot": "A group of space explorers fights to save the universe from a deadly threat.",
+      "country": "Canada",
+      "language": "English",
+      "quality": "IMAX",
+      "age_group": "PG-13",
+      "authors": [
+        "Steven Lucas",
+        "James Cameron"
+      ],
+      "metacritic_rate": 80,
+      "imdb_rate": 8.0,
+      "picture_url": "https://example.com/images/galactic-adventures.jpg"
+    },
+    {
+      "title": "Haunted Mansion",
+      "year": 2022,
+      "director": "Eva Green",
+      "genre": [
+        "Horror",
+        "Mystery"
+      ],
+      "rating": 7.2,
+      "cast": [
+        {
+          "name": "Daniel Radcliffe",
+          "role": "Victor Crowley"
+        },
+        {
+          "name": "Emma Watson",
+          "role": "Lydia Deetz"
+        }
+      ],
+      "duration": 115,
+      "plot": "A young couple moves into a mansion, only to discover it's haunted by malevolent spirits.",
+      "country": "UK",
+      "language": "English",
+      "quality": "HD",
+      "age_group": "R",
+      "authors": [
+        "Eva Green",
+        "Stephen King"
+      ],
+      "metacritic_rate": 72,
+      "imdb_rate": 7.2,
+      "picture_url": "https://example.com/images/haunted-mansion.jpg"
+    },  {
+  "title": "The Secret of the Whispering Pines",
+  "year": 2023,
+  "director": "Rachel Adams",
+  "genre": ["Mystery", "Thriller"],
+  "rating": 7.8,
+  "cast": [
+    {"name": "Hugh Jackman", "role": "Detective Carter"},
+    {"name": "Mila Kunis", "role": "Lily Thompson"}
+  ],
+  "duration": 125,
+  "plot": "A seasoned detective unravels the secrets behind a series of mysterious disappearances in a small town.",
+  "country": "USA",
+  "language": "English",
+  "quality": "4K",
+  "age_group": "PG-13",
+  "authors": ["Rachel Adams", "John Stevens"],
+  "metacritic_rate": 80,
+  "imdb_rate": 7.8,
+  "picture_url": "https://example.com/images/whispering-pines.jpg"
+},
+  {
+    "title": "Sunset Overdrive",
+    "year": 2022,
+    "director": "Michael Bay",
+    "genre": ["Action", "Sci-Fi"],
+    "rating": 7.9,
+    "cast": [
+      {"name": "Chris Hemsworth", "role": "Jack Harper"},
+      {"name": "Gal Gadot", "role": "Dr. Lisa Madison"}
+    ],
+    "duration": 138,
+    "plot": "In a dystopian future, a group of rebels fights against a tyrannical regime.",
+    "country": "Australia",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": ["Michael Bay", "Linda Thompson"],
+    "metacritic_rate": 82,
+    "imdb_rate": 7.9,
+    "picture_url": "https://example.com/images/sunset-overdrive.jpg"
+  },
+  {
+    "title": "Chasing Starlight",
+    "year": 2021,
+    "director": "Nina Rodriguez",
+    "genre": ["Romance", "Drama"],
+    "rating": 8.0,
+    "cast": [
+      {"name": "Ryan Reynolds", "role": "Ethan Bennett"},
+      {"name": "Blake Lively", "role": "Isabelle Carter"}
+    ],
+    "duration": 120,
+    "plot": "A love story that transcends time and space.",
+    "country": "Canada",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG-13",
+    "authors": ["Nina Rodriguez", "David Wright"],
+    "metacritic_rate": 78,
+    "imdb_rate": 8.0,
+    "picture_url": "https://example.com/images/chasing-starlight.jpg"
+  },
+  {
+    "title": "Frozen Abyss",
+    "year": 2024,
+    "director": "Liam Hayes",
+    "genre": ["Adventure", "Thriller"],
+    "rating": 7.7,
+    "cast": [
+      {"name": "Tom Hardy", "role": "Captain Frost"},
+      {"name": "Emily Blunt", "role": "Dr. Elena Drake"}
+    ],
+    "duration": 130,
+    "plot": "A thrilling adventure in the frozen wilderness where survival is the ultimate challenge.",
+    "country": "Norway",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "PG-13",
+    "authors": ["Liam Hayes", "Jessica Brown"],
+    "metacritic_rate": 79,
+    "imdb_rate": 7.7,
+    "picture_url": "https://example.com/images/frozen-abyss.jpg"
+  },
+  {
+    "title": "Echoes of Eternity",
+    "year": 2024,
+    "director": "Olivia Green",
+    "genre": ["Drama", "Sci-Fi"],
+    "rating": 8.5,
+    "cast": [
+      {"name": "Liam Wright", "role": "Dr. Michael"},
+      {"name": "Sophia Black", "role": "Sarah Lee"}
+    ],
+    "duration": 132,
+    "plot": "In a distant future, humanity's last hope lies in the hands of a determined scientist.",
+    "country": "Australia",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": ["Olivia Green", "Sarah White"],
+    "metacritic_rate": 88,
+    "imdb_rate": 8.5,
+    "picture_url": "https://example.com/images/echoes-of-eternity.jpg"
+  },
+  {
+    "title": "City of Shadows",
+    "year": 2020,
+    "director": "Eva Green",
+    "genre": ["Thriller", "Mystery"],
+    "rating": 7.3,
+    "cast": [
+      {"name": "Daniel Radcliffe", "role": "Victor Crowley"},
+      {"name": "Emma Watson", "role": "Lydia Deetz"}
+    ],
+    "duration": 115,
+    "plot": "In the heart of a bustling city, a detective unravels a web of deceit and murder.",
+    "country": "UK",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "R",
+    "authors": ["Eva Green", "Stephen King"],
+    "metacritic_rate": 72,
+    "imdb_rate": 7.2,
+    "picture_url": "https://example.com/images/city-of-shadows.jpg"
+  },
+  {
+    "title": "Galactic Frontier",
+    "year": 2025,
+    "director": "Steven Spielberg",
+    "genre": ["Sci-Fi", "Adventure"],
+    "rating": 8.1,
+    "cast": [
+      {"name": "Chris Pratt", "role": "Captain John Smith"},
+      {"name": "Zoe Saldana", "role": "Lieutenant Jane Doe"}
+    ],
+    "duration": 140,
+    "plot": "A crew of space explorers ventures into uncharted territory to uncover the secrets of the universe.",
+    "country": "USA",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": ["Steven Spielberg", "George Lucas"],
+    "metacritic_rate": 83,
+    "imdb_rate": 8.1,
+    "picture_url": "https://example.com/images/galactic-frontier.jpg"
+  }, {
+  "title": "Silent Echoes",
+  "year": 2021,
+  "director": "John Doe",
+  "genre": ["Thriller", "Drama"],
+  "rating": 7.8,
+  "cast": [
+    {"name": "Tom Hardy", "role": "Jack Harper"},
+    {"name": "Emily Blunt", "role": "Rachel Adams"}
+  ],
+  "duration": 128,
+  "plot": "A detective hunts for clues in a town where everyone keeps secrets.",
+  "country": "USA",
+  "language": "English",
+  "quality": "HD",
+  "age_group": "PG-13",
+  "authors": ["John Doe", "Jane Smith"],
+  "metacritic_rate": 78,
+  "imdb_rate": 7.8,
+  "picture_url": "https://example.com/images/silent-echoes.jpg"
+},
+  {
+    "title": "Cosmic Journey",
+    "year": 2023,
+    "director": "Sarah Connor",
+    "genre": ["Sci-Fi", "Adventure"],
+    "rating": 8.4,
+    "cast": [
+      {"name": "Chris Evans", "role": "Captain Star"},
+      {"name": "Brie Larson", "role": "Commander Sky"}
+    ],
+    "duration": 140,
+    "plot": "An expedition crew navigates the vastness of space to find a new home for humanity.",
+    "country": "Canada",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": ["Sarah Connor", "Kyle Reese"],
+    "metacritic_rate": 84,
+    "imdb_rate": 8.4,
+    "picture_url": "https://example.com/images/cosmic-journey.jpg"
+  },
+  {
+    "title": "Haunted Hearts",
+    "year": 2022,
+    "director": "Steven King",
+    "genre": ["Horror", "Romance"],
+    "rating": 7.2,
+    "cast": [
+      {"name": "Daniel Craig", "role": "Edward Blackwood"},
+      {"name": "Rachel Weisz", "role": "Victoria Grey"}
+    ],
+    "duration": 118,
+    "plot": "A haunted mansion holds dark secrets that entwine two lovers.",
+    "country": "UK",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "R",
+    "authors": ["Steven King", "Sophie King"],
+    "metacritic_rate": 72,
+    "imdb_rate": 7.2,
+    "picture_url": "https://example.com/images/haunted-hearts.jpg"
+  },
+  {
+    "title": "The Grand Heist",
+    "year": 2024,
+    "director": "Michael Bay",
+    "genre": ["Action", "Thriller"],
+    "rating": 8.0,
+    "cast": [
+      {"name": "Vin Diesel", "role": "Frank Stone"},
+      {"name": "Michelle Rodriguez", "role": "Lara Croft"}
+    ],
+    "duration": 138,
+    "plot": "A team of elite thieves plots the ultimate heist against a corrupt corporation.",
+    "country": "USA",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "PG-13",
+    "authors": ["Michael Bay", "David Ayer"],
+    "metacritic_rate": 80,
+    "imdb_rate": 8.0,
+    "picture_url": "https://example.com/images/the-grand-heist.jpg"
+  },
+  {
+    "title": "Eternal Love",
+    "year": 2018,
+    "director": "Nora Ephron",
+    "genre": ["Romance", "Drama"],
+    "rating": 7.5,
+    "cast": [
+      {"name": "Ryan Gosling", "role": "John Adams"},
+      {"name": "Rachel McAdams", "role": "Emma Clark"}
+    ],
+    "duration": 115,
+    "plot": "A heartfelt story about two souls finding each other against all odds.",
+    "country": "USA",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG",
+    "authors": ["Nora Ephron", "Richard Curtis"],
+    "metacritic_rate": 75,
+    "imdb_rate": 7.5,
+    "picture_url": "https://example.com/images/eternal-love.jpg"
+  },
+  {
+    "title": "Future Quest",
+    "year": 2023,
+    "director": "James Cameron",
+    "genre": ["Adventure", "Sci-Fi"],
+    "rating": 8.3,
+    "cast": [
+      {"name": "Leonardo DiCaprio", "role": "Dr. Alex Grant"},
+      {"name": "Jennifer Lawrence", "role": "Captain Sarah Jane"}
+    ],
+    "duration": 142,
+    "plot": "A futuristic adventure where explorers travel through time to save Earth.",
+    "country": "USA",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": ["James Cameron", "Christopher Nolan"],
+    "metacritic_rate": 83,
+    "imdb_rate": 8.3,
+    "picture_url": "https://example.com/images/future-quest.jpg"
+  },
+  {
+    "title": "Mystic Lake",
+    "year": 2021,
+    "director": "Jane Doe",
+    "genre": ["Mystery", "Thriller"],
+    "rating": 7.9,
+    "cast": [
+      {"name": "Chris Hemsworth", "role": "Detective Green"},
+      {"name": "Natalie Portman", "role": "Laura Lake"}
+    ],
+    "duration": 125,
+    "plot": "A detective uncovers secrets surrounding a mysterious lake.",
+    "country": "USA",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG-13",
+    "authors": ["Jane Doe", "John Smith"],
+    "metacritic_rate": 79,
+    "imdb_rate": 7.9,
+    "picture_url": "https://example.com/images/mystic-lake.jpg"
+  },
+  {
+    "title": "Digital Dreams",
+    "year": 2022,
+    "director": "Alex Garland",
+    "genre": ["Sci-Fi", "Drama"],
+    "rating": 8.1,
+    "cast": [
+      {"name": "Oscar Isaac", "role": "Ethan Cole"},
+      {"name": "Alicia Vikander", "role": "Dr. Eva Rose"}
+    ],
+    "duration": 128,
+    "plot": "In a future dominated by technology, one man seeks to reclaim his humanity.",
+    "country": "USA",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "PG-13",
+    "authors": ["Alex Garland", "Jonathan Nolan"],
+    "metacritic_rate": 81,
+    "imdb_rate": 8.1,
+    "picture_url": "https://example.com/images/digital-dreams.jpg"
+  },{
+  "title": "Hidden Truths",
+  "year": 2021,
+  "director": "Ava DuVernay",
+  "genre": ["Drama", "Mystery"],
+  "rating": 8.3,
+  "cast": [
+    {"name": "Viola Davis", "role": "Detective Rose"},
+    {"name": "Chadwick Boseman", "role": "Marcus Green"}
+  ],
+  "duration": 127,
+  "plot": "A detective must uncover the secrets of a small town haunted by dark truths.",
+  "country": "USA",
+  "language": "English",
+  "quality": "HD",
+  "age_group": "PG-13",
+  "authors": ["Ava DuVernay", "Shonda Rhimes"],
+  "metacritic_rate": 83,
+  "imdb_rate": 8.3,
+  "picture_url": "https://example.com/images/hidden-truths.jpg"
+},
+  {
+    "title": "Solar Flare",
+    "year": 2022,
+    "director": "Christopher Nolan",
+    "genre": ["Sci-Fi", "Action"],
+    "rating": 8.7,
+    "cast": [
+      {"name": "Matthew McConaughey", "role": "Dr. Sam Houston"},
+      {"name": "Anne Hathaway", "role": "Captain Grace"}
+    ],
+    "duration": 145,
+    "plot": "In the midst of a solar disaster, a team of scientists races to save Earth.",
+    "country": "USA",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": ["Christopher Nolan", "David Goyer"],
+    "metacritic_rate": 87,
+    "imdb_rate": 8.7,
+    "picture_url": "https://example.com/images/solar-flare.jpg"
+  },
+  {
+    "title": "Whispers in the Wind",
+    "year": 2019,
+    "director": "Greta Gerwig",
+    "genre": ["Romance", "Drama"],
+    "rating": 7.8,
+    "cast": [
+      {"name": "Timothée Chalamet", "role": "Oliver Stone"},
+      {"name": "Saoirse Ronan", "role": "Eliza Blue"}
+    ],
+    "duration": 112,
+    "plot": "Two young lovers find solace in each other while navigating life's challenges.",
+    "country": "USA",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG-13",
+    "authors": ["Greta Gerwig", "Noah Baumbach"],
+    "metacritic_rate": 78,
+    "imdb_rate": 7.8,
+    "picture_url": "https://example.com/images/whispers-in-the-wind.jpg"
+  },
+  {
+    "title": "Virtual Reality",
+    "year": 2020,
+    "director": "Lana Wachowski",
+    "genre": ["Sci-Fi", "Thriller"],
+    "rating": 8.5,
+    "cast": [
+      {"name": "Keanu Reeves", "role": "Neo Anderson"},
+      {"name": "Carrie-Anne Moss", "role": "Trinity"}
+    ],
+    "duration": 130,
+    "plot": "In a future dominated by virtual reality, a hacker must uncover a dangerous conspiracy.",
+    "country": "USA",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "R",
+    "authors": ["Lana Wachowski", "Lilly Wachowski"],
+    "metacritic_rate": 85,
+    "imdb_rate": 8.5,
+    "picture_url": "https://example.com/images/virtual-reality.jpg"
+  },
+  {
+    "title": "Echoes of the Past",
+    "year": 2021,
+    "director": "Denis Villeneuve",
+    "genre": ["Drama", "Sci-Fi"],
+    "rating": 8.3,
+    "cast": [
+      {"name": "Jake Gyllenhaal", "role": "David Miller"},
+      {"name": "Amy Adams", "role": "Dr. Eleanor Reed"}
+    ],
+    "duration": 133,
+    "plot": "A scientist's discovery of time travel unveils the hidden truths of her past.",
+    "country": "Canada",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": ["Denis Villeneuve", "Eric Heisserer"],
+    "metacritic_rate": 83,
+    "imdb_rate": 8.3,
+    "picture_url": "https://example.com/images/echoes-of-the-past.jpg"
+  },
+  {
+    "title": "Rise of the Titans",
+    "year": 2023,
+    "director": "Patty Jenkins",
+    "genre": ["Action", "Adventure"],
+    "rating": 8.0,
+    "cast": [
+      {"name": "Gal Gadot", "role": "Diana Prince"},
+      {"name": "Chris Pine", "role": "Steve Trevor"}
+    ],
+    "duration": 142,
+    "plot": "A team of heroes must unite to battle an ancient enemy threatening the world.",
+    "country": "USA",
+    "language": "English",
+    "quality": "IMAX",
+    "age_group": "PG-13",
+    "authors": ["Patty Jenkins", "Geoff Johns"],
+    "metacritic_rate": 80,
+    "imdb_rate": 8.0,
+    "picture_url": "https://example.com/images/rise-of-the-titans.jpg"
+  },
+  {
+    "title": "The Last Frontier",
+    "year": 2024,
+    "director": "Quentin Tarantino",
+    "genre": ["Western", "Drama"],
+    "rating": 8.6,
+    "cast": [
+      {"name": "Leonardo DiCaprio", "role": "Wyatt Earp"},
+      {"name": "Margot Robbie", "role": "Laura Clayton"}
+    ],
+    "duration": 154,
+    "plot": "In the wild west, a legendary lawman must face his greatest challenge yet.",
+    "country": "USA",
+    "language": "English",
+    "quality": "4K",
+    "age_group": "R",
+    "authors": ["Quentin Tarantino", "Roger Avary"],
+    "metacritic_rate": 86,
+    "imdb_rate": 8.6,
+    "picture_url": "https://example.com/images/the-last-frontier.jpg"
+  },
+  {
+    "title": "City of Dreams",
+    "year": 2022,
+    "director": "Damien Chazelle",
+    "genre": ["Musical", "Drama"],
+    "rating": 7.9,
+    "cast": [
+      {"name": "Ryan Gosling", "role": "Sebastian Wilder"},
+      {"name": "Emma Stone", "role": "Mia Dolan"}
+    ],
+    "duration": 128,
+    "plot": "Two aspiring artists navigate love and ambition in the heart of Los Angeles.",
+    "country": "USA",
+    "language": "English",
+    "quality": "HD",
+    "age_group": "PG-13",
+    "authors": ["Damien Chazelle", "Justin Hurwitz"],
+    "metacritic_rate": 79,
+    "imdb_rate": 7.9,
+    "picture_url": "https://example.com/images/city-of-dreams.jpg"
+  }
+]
