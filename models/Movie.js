@@ -11,6 +11,11 @@ const MovieSchema = new mongoose.Schema({
         required: [true, 'A tour mast have a difficulty'],
         trim: true
     },
+    type:{
+        type: String,
+        enum:['movie','series'],
+        default: 'movie'
+    },
     year: {
         type: Number,
         required: [true, 'year is required']
