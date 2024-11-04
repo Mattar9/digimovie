@@ -41,6 +41,14 @@ const UserSchema = new mongoose.Schema({
         type: String,
         default: 'default.jpg'
     },
+    favouritesMovie: {
+        type: [mongoose.Types.ObjectId],
+        ref: 'Movie',
+    },
+    listItems:{
+        type: [mongoose.Types.ObjectId],
+        ref: 'List',
+    },
     Membership: {
         type: Date,
         default: Date.now()

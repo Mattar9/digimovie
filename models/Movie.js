@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 const castSchema = new mongoose.Schema({
-    name: { type: String, required: true },
-    role: { type: String },
+    name: {type: String, required: true},
+    role: {type: String},
 })
 
 const MovieSchema = new mongoose.Schema({
@@ -11,9 +11,9 @@ const MovieSchema = new mongoose.Schema({
         required: [true, 'A tour mast have a difficulty'],
         trim: true
     },
-    type:{
+    type: {
         type: String,
-        enum:['movie','series'],
+        enum: ['movie', 'series'],
         default: 'movie'
     },
     year: {
@@ -31,12 +31,12 @@ const MovieSchema = new mongoose.Schema({
     rating: {
         type: Number,
         required: [true, 'rating is required'],
-        min:1,
-        max:10,
-        default:5
+        min: 1,
+        max: 10,
+        default: 5
     },
     cast: {
-        type:[castSchema]
+        type: [castSchema]
     },
     duration: {
         type: Number,
@@ -65,6 +65,9 @@ const MovieSchema = new mongoose.Schema({
     },
     metacritic_rate: {
         type: Number
+    },
+    awards: {
+        type: String,
     },
     imdb_rate: {
         type: Number
