@@ -6,6 +6,7 @@ const notFoundError = require('./middleware/not-found');
 const movieRouter = require('./routes/movieRoutes');
 const authRouter = require('./routes/authRoutes');
 const userRouter = require('./routes/userRoutes');
+const reviewRouter = require('./routes/reviewRoutes');
 const cookieParser = require('cookie-parser');
 require('./db/connect');
 
@@ -18,6 +19,7 @@ app.use(cookieParser(process.env.JWT_SECRET))
 app.use('/api/v1/auth', authRouter)
 app.use('/api/v1/user', userRouter)
 app.use('/api/v1/movie', movieRouter)
+app.use('/api/v1/review', reviewRouter)
 
 app.use(errorHandler);
 app.use(notFoundError);

@@ -24,10 +24,54 @@ const reviewSchema = new mongoose.Schema({
         type: mongoose.Schema.ObjectId,
         ref: 'User',
         required: [true, 'review must belong to a user']
+    },
+    spoilReview:{
+      type:Boolean,
+      default:false
+    },
+    positiveRate:{
+        type: Number,
+        default: 0
+    },
+    negativeRate:{
+        type: Number,
+        default: 0
+    },
+    repliedReviewTo:{
+        type:mongoose.Schema.ObjectId,
+        ref: 'Review',
+    },
+    repliedReviewFrom:{
+        type:[mongoose.Schema.ObjectId],
+        ref: 'Review',
     }
 }, {
     toJSON: { virtuals: true },
     toObject: { virtuals: true }
+});
+
+reviewSchema.pre(/^find/, function(next) {
+    this.populate({
+        path: 'user',
+        select: 'name photo'
+    });
+    next();
+});
+
+reviewSchema.pre(/^find/, function(next) {
+    this.populate({
+        path: 'movie',
+        select: 'title type genre'
+    });
+    next();
+});
+
+reviewSchema.pre(/^find/, function(next) {
+    this.populate({
+        path: 'repliedReviewFrom',
+        select: 'review'
+    });
+    next();
 });
 
 module.exports = mongoose.model('Review', reviewSchema);
