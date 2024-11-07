@@ -2,6 +2,11 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
 
+const rateSchema = new mongoose.Schema({
+    movie: {type: mongoose.Schema.ObjectId, required: true},
+    rate: {type: Number,required: true,min:1, max:5} ,
+})
+
 const UserSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -48,6 +53,9 @@ const UserSchema = new mongoose.Schema({
     listItems:{
         type: [mongoose.Types.ObjectId],
         ref: 'List',
+    },
+    rateMovies:{
+        type: [rateSchema],
     },
     Membership: {
         type: Date,

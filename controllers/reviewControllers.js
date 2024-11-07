@@ -1,6 +1,5 @@
 const customError = require('../errors');
 const {StatusCodes} = require('http-status-codes')
-const User = require('../models/User');
 const Movie = require('../models/Movie');
 const Review = require('../models/Review');
 

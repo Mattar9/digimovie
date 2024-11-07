@@ -28,12 +28,15 @@ const MovieSchema = new mongoose.Schema({
         type: [String],
         required: [true, 'genre is required']
     },
-    rating: {
+    ratingsAverage: {
         type: Number,
-        required: [true, 'rating is required'],
-        min: 1,
-        max: 10,
-        default: 5
+        min: [1, 'rating must be above 1'],
+        max: [5, 'rating must be below 5'],
+        set: val => Math.round(val * 10) / 10
+    },
+    ratingsQuantity: {
+        type: Number,
+        default: 0
     },
     cast: {
         type: [castSchema]
@@ -79,6 +82,15 @@ const MovieSchema = new mongoose.Schema({
         type: Date,
         default: Date.now()
     }
+},{
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
 })
+
+MovieSchema.virtual('reviews', {
+    ref: 'Review',
+    foreignField: 'movie',
+    localField: '_id'
+});
 
 module.exports = mongoose.model('Movie', MovieSchema);
