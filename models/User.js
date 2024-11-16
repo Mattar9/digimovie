@@ -43,6 +43,10 @@ const UserSchema = new mongoose.Schema({
         },
         message: 'password_confirmation should be the same as the password'
     },
+    aboutUser:{
+        type:String,
+        maxLength:100
+    },
     photo: {
         type: String,
         default: 'default.jpg'

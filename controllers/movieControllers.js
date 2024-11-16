@@ -19,7 +19,7 @@ const getMovie = async (req, res) => {
 
 const getAllMovies = async (req, res) => {
     const movies = await Movie.find()
-    res.status(StatusCodes.OK).json({success: true, data: movies})
+    res.status(StatusCodes.OK).json({success: true,count:movies.length, data: movies})
 }
 
 module.exports = {createMovie,getAllMovies,getMovie}

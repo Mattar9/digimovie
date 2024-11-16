@@ -6,7 +6,7 @@ const Review = require('../models/Review');
 const getAllUserReviews = async (req, res) => {
     const {userId} = req.user
     const review = await Review.find({user: userId})
-    res.status(StatusCodes.OK).json({success: true, data: review})
+    res.status(StatusCodes.OK).json({success: true,count:review.length, data: review})
 }
 
 const createReview = async (req, res) => {
