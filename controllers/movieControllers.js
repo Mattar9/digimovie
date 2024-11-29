@@ -102,7 +102,7 @@ const getAllTopMovies = async (req, res) => {
 
 const getMovieByCast = async (req, res) => {
     const {actor} = req.params
-    const movie = await Movie.find({cast: {$elemMatch: {name: cast}}})
+    const movie = await Movie.find({cast: {$elemMatch: {name: actor}}})
     res.status(StatusCodes.OK).json({success: true, count: movie.length, data: movie})
 }
 
