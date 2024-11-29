@@ -1,10 +1,5 @@
 const mongoose = require('mongoose');
 
-const castSchema = new mongoose.Schema({
-    name: {type: String, required: true},
-    role: {type: String},
-})
-
 const MovieSchema = new mongoose.Schema({
     title: {
         type: String,
@@ -39,7 +34,8 @@ const MovieSchema = new mongoose.Schema({
         default: 0
     },
     cast: {
-        type: [castSchema]
+        type: [{name: String}],
+        required: [true, 'cast is required'],
     },
     duration: {
         type: Number,
@@ -72,8 +68,23 @@ const MovieSchema = new mongoose.Schema({
     awards: {
         type: String,
     },
+    top_movie: {
+        type: Boolean,
+        default: false
+    },
     imdb_rate: {
         type: Number
+    },
+    num_of_imdb_rate: {
+        type: Number,
+    },
+    num_of_review: {
+        type: Number,
+        default: 0
+    },
+    views: {
+        type: Number,
+        default: 0
     },
     picture_url: {
         type: String
@@ -81,10 +92,14 @@ const MovieSchema = new mongoose.Schema({
     createdAt: {
         type: Date,
         default: Date.now()
-    }
-},{
-    toJSON: { virtuals: true },
-    toObject: { virtuals: true }
+    },
+    network: {type: String},
+    isDubbed: {type: Boolean},
+    hasSubtitles: {type: Boolean},
+    isOnline: {type: Boolean}
+}, {
+    toJSON: {virtuals: true},
+    toObject: {virtuals: true}
 })
 
 MovieSchema.virtual('reviews', {

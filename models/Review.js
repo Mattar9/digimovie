@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const Movie = require('../models/Movie');
 
 const reviewSchema = new mongoose.Schema({
     review: {
@@ -25,33 +26,40 @@ const reviewSchema = new mongoose.Schema({
         ref: 'User',
         required: [true, 'review must belong to a user']
     },
-    spoilReview:{
-      type:Boolean,
-      default:false
+    spoilReview: {
+        type: Boolean,
+        default: false
     },
-    positiveRate:{
+    positiveRate: {
         type: Number,
         default: 0
     },
-    negativeRate:{
+    negativeRate: {
         type: Number,
         default: 0
     },
-    repliedReviewTo:{
-        type:mongoose.Schema.ObjectId,
+    repliedReviewTo: {
+        type: mongoose.Schema.ObjectId,
         ref: 'Review',
     },
-    repliedReviewFrom:{
-        type:[mongoose.Schema.ObjectId],
+    repliedReviewFrom: {
+        type: [mongoose.Schema.ObjectId],
         ref: 'Review',
     }
 }, {
-    toJSON: { virtuals: true },
-    toObject: { virtuals: true }
+    toJSON: {virtuals: true},
+    toObject: {virtuals: true}
 });
 
+reviewSchema.pre('save', async function (next) {
+    const movieId = this.movie
+    const movie = await Movie.findById(movieId)
+    movie.num_of_review++
+    await movie.save({validateBeforeSave: false});
+    next()
+})
 
-reviewSchema.pre(/^find/, function(next) {
+reviewSchema.pre(/^find/, function (next) {
     this.populate({
         path: 'user',
         select: 'name photo'
@@ -59,7 +67,7 @@ reviewSchema.pre(/^find/, function(next) {
     next();
 });
 
-reviewSchema.pre(/^find/, function(next) {
+reviewSchema.pre(/^find/, function (next) {
     this.populate({
         path: 'movie',
         select: 'title type genre'
@@ -67,7 +75,7 @@ reviewSchema.pre(/^find/, function(next) {
     next();
 });
 
-reviewSchema.pre(/^find/, function(next) {
+reviewSchema.pre(/^find/, function (next) {
     this.populate({
         path: 'repliedReviewFrom',
         select: 'review'

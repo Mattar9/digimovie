@@ -4,6 +4,7 @@ const {StatusCodes} = require('http-status-codes')
 const {attachCookiesToResponse} = require('../utils/jwt')
 const createTokenUser = require('../utils/createTokenUser')
 const sendVerificationEmail = require('../utils/sendVerificationEmail')
+const {sendForgotPasswordEmail} = require('../utils/sendResetPasswordEmail')
 const crypto = require('crypto');
 
 const register = async (req, res) => {
@@ -88,6 +89,62 @@ const verifyEmail = async (req, res) => {
     res.status(StatusCodes.OK).json({msg: 'Email Verified'})
 }
 
+const forgotPassword = async (req, res) => {
+    const {email} = req.body
+    if (!email) {
+        throw new customError.BadRequestError('please provide an email')
+    }
+    const user = await User.findOne({email})
+    if (!user) {
+        throw new customError.NotFoundError('there is no user with this email')
+    }
+    const resetToken = user.createResetPasswordToken()
+    await user.save({validateBeforeSave: false});
+    const origin = "http://localhost:5000/api/v1"
+    await sendForgotPasswordEmail({name: user.name, email: user.email, token: resetToken, origin})
+    res.status(StatusCodes.OK).json({success: true, msg: 'forgot Password link sent to your email'})
+}
+
+const resetPassword = async (req, res) => {
+    const {password, passwordConfirm} = req.body
+    const {token} = req.query
+    if (!password || passwordConfirm) {
+        throw new customError.BadRequestError('please provide password and password Confirmation')
+    }
+
+    const hashedToken = crypto.createHash('sha256').update(token).digest('hex')
+    const user = await User.findOne({passwordResetToken: hashedToken, passwordResetExpires: {$gt: Date.now()}});
+
+    if (!user) {
+        throw new customError.BadRequestError('there is no user with this token')
+    }
+
+    user.password = password;
+    user.password_confirmation = passwordConfirm;
+    user.passwordResetToken = undefined;
+    user.passwordResetExpires = undefined;
+    await user.save({validateBeforeSave: false});
+    res.status(StatusCodes.OK).json({success: true, msg: 'password changed'})
+};
+
+const updateUserInformation = async (req, res) => {
+    const {userId} = req.user
+    const {email, phoneNumber, name, password, password_confirmation, aboutUser} = req.body
+    if (!email && !phoneNumber && !name && !password && !aboutUser) {
+        throw new customError.BadRequestError('please fill at least one field')
+    }
+    const user = await User.findOne({_id: userId})
+
+    if (!user.isVerified && email) user.email = email
+    if (phoneNumber) user.phoneNumber = phoneNumber
+    if (name) user.name = name
+    if (password && password_confirmation && password === password_confirmation) user.password = password
+    if (aboutUser) user.aboutUser = aboutUser
+    await user.save({validateBeforeSave: false});
+
+    res.status(StatusCodes.OK).json({success:true,data:user})
+}
+
 const logout = async (req, res) => {
     res.cookie('token', 'logout', {
         httpOnly: true,
@@ -96,4 +153,13 @@ const logout = async (req, res) => {
     res.status(StatusCodes.OK).json({msg: 'user logged out!'});
 }
 
-module.exports = {register, login, sendVerificationEmailToUser, verifyEmail, logout}
+module.exports = {
+    register,
+    login,
+    sendVerificationEmailToUser,
+    verifyEmail,
+    forgotPassword,
+    resetPassword,
+    updateUserInformation,
+    logout
+}

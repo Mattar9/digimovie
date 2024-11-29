@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
+const crypto = require('crypto')
 
 const rateSchema = new mongoose.Schema({
     movie: {type: mongoose.Schema.ObjectId, required: true},
-    rate: {type: Number,required: true,min:1, max:5} ,
+    rate: {type: Number, required: true, min: 1, max: 5},
 })
 
 const UserSchema = new mongoose.Schema({
@@ -29,6 +30,11 @@ const UserSchema = new mongoose.Schema({
         required: true,
         minlength: 8
     },
+    phoneNumber:{
+      type: Number,
+      required: [true, 'please provide a phone number'],
+      trim: true,
+    },
     role: {
         type: String,
         enum: ['admin', 'user'],
@@ -43,9 +49,9 @@ const UserSchema = new mongoose.Schema({
         },
         message: 'password_confirmation should be the same as the password'
     },
-    aboutUser:{
-        type:String,
-        maxLength:100
+    aboutUser: {
+        type: String,
+        maxLength: 100
     },
     photo: {
         type: String,
@@ -55,11 +61,11 @@ const UserSchema = new mongoose.Schema({
         type: [mongoose.Types.ObjectId],
         ref: 'Movie',
     },
-    listItems:{
+    listItems: {
         type: [mongoose.Types.ObjectId],
         ref: 'List',
     },
-    rateMovies:{
+    rateMovies: {
         type: [rateSchema],
     },
     Membership: {
@@ -75,7 +81,9 @@ const UserSchema = new mongoose.Schema({
     lastAction: {
         type: Date,
         default: Date.now()
-    }
+    },
+    passwordResetToken: String,
+    passwordResetExpires: Date,
 })
 
 UserSchema.pre('save', async function (next) {
@@ -88,5 +96,13 @@ UserSchema.pre('save', async function (next) {
 UserSchema.methods.correctPassword = async function (candidatePassword, userPassword) {
     return await bcrypt.compare(candidatePassword, userPassword);
 };
+
+UserSchema.methods.createResetPasswordToken = function () {
+    const resetToken = crypto.randomBytes(32).toString('hex')
+
+    this.passwordResetToken = crypto.createHash('sha256').update(resetToken).digest('hex')
+    this.passwordResetExpires = Date.now() + 10 * 60 * 1000
+    return resetToken
+}
 
 module.exports = mongoose.model('User', UserSchema);
